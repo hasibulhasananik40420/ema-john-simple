@@ -1,0 +1,33 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 144px;
+    padding-right: 140px;
+   
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 36px;
+}
+/* .header a::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    background: #f44336;
+    display:block;
+    margin: auto;
+    transition: 0.4s;
+}
+.header a:hover::after{
+    width: 100%;
+    
+} */
+.header a:hover{
+    color: #f44336;
+}
